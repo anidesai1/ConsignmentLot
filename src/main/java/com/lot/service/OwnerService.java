@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface OwnerService {
     Owner save(Owner owner);
+    Owner findById(Long id);
 }
